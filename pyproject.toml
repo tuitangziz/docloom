@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docloom-local"
+version = "0.1.0"
+description = "Local document questions, grounded in inspectable source passages."
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = [
+  "streamlit>=1.50,<2",
+  "pypdf>=6,<7",
+  "python-docx>=1.2,<2",
+  "scikit-learn>=1.7,<2",
+  "numpy>=1.26,<3",
+  "rank-bm25>=0.2.2,<0.3",
+  "httpx>=0.28,<1",
+  "pydantic>=2.10,<3",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10", "reportlab>=4,<6"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

@@ -1,0 +1,82 @@
+{
+  "scope": "Synthetic retrieval smoke cases; not answer accuracy or a general benchmark",
+  "answerable_cases": 10,
+  "unanswerable_cases": 2,
+  "hit_rate_at_3": 1.0,
+  "mrr_at_3": 1.0,
+  "no_result_rate_on_unanswerable": 1.0,
+  "cases": [
+    {
+      "question": "普通图书借阅期限",
+      "expected_document": "示例-借阅规则.md",
+      "rank_at_3": 1,
+      "returned": 3
+    },
+    {
+      "question": "每位读者最多借阅几本图书",
+      "expected_document": "示例-借阅规则.md",
+      "rank_at_3": 1,
+      "returned": 3
+    },
+    {
+      "question": "哪些图书不能续借",
+      "expected_document": "示例-借阅规则.md",
+      "rank_at_3": 1,
+      "returned": 3
+    },
+    {
+      "question": "阅读室周一开放吗",
+      "expected_document": "示例-借阅规则.md",
+      "rank_at_3": 1,
+      "returned": 2
+    },
+    {
+      "question": "GPU 工作站提前多久预约",
+      "expected_document": "示例-实验室手册.md",
+      "rank_at_3": 1,
+      "returned": 3
+    },
+    {
+      "question": "共享临时目录什么时候清理",
+      "expected_document": "示例-实验室手册.md",
+      "rank_at_3": 1,
+      "returned": 1
+    },
+    {
+      "question": "实验室设备故障应该怎么办",
+      "expected_document": "示例-实验室手册.md",
+      "rank_at_3": 1,
+      "returned": 3
+    },
+    {
+      "question": "Which formats can Paper Kite export?",
+      "expected_document": "sample-project-notes.txt",
+      "rank_at_3": 1,
+      "returned": 2
+    },
+    {
+      "question": "What is the upload limit?",
+      "expected_document": "sample-project-notes.txt",
+      "rank_at_3": 1,
+      "returned": 1
+    },
+    {
+      "question": "When is the milestone review?",
+      "expected_document": "sample-project-notes.txt",
+      "rank_at_3": 1,
+      "returned": 1
+    },
+    {
+      "question": "火星大气中氩气比例",
+      "expected_document": null,
+      "rank_at_3": null,
+      "returned": 0
+    },
+    {
+      "question": "quantum chromodynamics gluon scattering",
+      "expected_document": null,
+      "rank_at_3": null,
+      "returned": 0
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc">
+  <title id="title">Docloom: find evidence before asking AI</title>
+  <desc id="desc">Local document parsing and retrieval, review selected excerpts, then generate cited answers using a configured API or local Ollama.</desc>
+  <rect width="1200" height="480" rx="24" fill="#f0f5f1"/>
+  <g font-family="system-ui,Segoe UI,Arial,sans-serif">
+    <text x="58" y="64" font-size="16" font-weight="700" letter-spacing="4" fill="#327362">DOCLOOM / DOCUMENT WORKSPACE</text>
+    <text x="56" y="136" font-size="52" font-weight="750" letter-spacing="-2" fill="#173e33">Evidence before answers.</text>
+    <text x="58" y="178" font-size="22" fill="#526c62">Local retrieval. Review before sending. Inspectable citations.</text>
+    <rect x="56" y="230" width="336" height="174" rx="16" fill="white" stroke="#d6e4db"/>
+    <rect x="432" y="230" width="336" height="174" rx="16" fill="white" stroke="#d6e4db"/>
+    <rect x="808" y="230" width="336" height="174" rx="16" fill="#1d6150"/>
+    <text x="82" y="267" font-size="14" font-weight="700" letter-spacing="2" fill="#327362">01 / ON YOUR COMPUTER</text>
+    <text x="82" y="313" font-size="28" font-weight="650" fill="#173e33">Find the passage</text>
+    <text x="82" y="348" font-size="18" fill="#526c62">PDF · DOCX · Markdown · TXT</text>
+    <text x="82" y="377" font-size="18" fill="#526c62">BM25 + character TF-IDF</text>
+    <text x="458" y="267" font-size="14" font-weight="700" letter-spacing="2" fill="#327362">02 / YOUR CHOICE</text>
+    <text x="458" y="313" font-size="28" font-weight="650" fill="#173e33">Review what is sent</text>
+    <text x="458" y="348" font-size="18" fill="#526c62">Question + selected excerpts</text>
+    <text x="458" y="377" font-size="18" fill="#526c62">API or local Ollama adapter</text>
+    <text x="834" y="267" font-size="14" font-weight="700" letter-spacing="2" fill="#aed7bd">03 / BACK TO THE SOURCE</text>
+    <text x="834" y="313" font-size="28" font-weight="650" fill="white">Read with evidence</text>
+    <text x="834" y="348" font-size="18" fill="#d4e7dc">Matched quotes + locations</text>
+    <text x="834" y="377" font-size="18" fill="#d4e7dc">Export Markdown or JSON</text>
+    <path d="M399 316h23m-7-6 7 6-7 6M775 316h23m-7-6 7 6-7 6" stroke="#619784" stroke-width="2.5" fill="none"/>
+    <text x="58" y="449" font-size="16" fill="#526c62">No model download needed for API mode. A matching quote is evidence, not proof that a conclusion is correct.</text>
+  </g>
+</svg>
